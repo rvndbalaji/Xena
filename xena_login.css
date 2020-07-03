@@ -1,0 +1,123 @@
+#login_box, #reg_box
+{
+	
+	background-position: center;
+	background-repeat: no-repeat;
+    background-image: url("http://localhost/Images/bg2.jpg");
+	background-attachment:fixed;
+	
+	box-shadow: 0px 0px 15px #424242;
+    margin: 0 auto;
+    width :40%;	
+    padding: 1%;
+	animation-name: appear;
+	animation-duration: 1s;
+}
+
+#head
+{
+	font-size: 150%;
+    text-align:center;
+}
+
+#login_form, #reg_form
+{
+  text-align: center;  	  
+}
+.textbox, .sign_box
+{
+	padding:1.25%;
+	font-size:110%;	
+	border-color: transparent transparent #90CAF9;	
+	
+}
+
+.login_label, .sign_label
+{
+    font-size: 110%;	
+	padding: 1.5% 5%;
+	background: #90CAF9;
+	box-shadow:2px 2px 5px Gray;	
+	color: Black;    
+}
+
+
+#login_btn, #register_btn, #login_btn_small
+{
+    text-transform: capitalize;
+	font-size: 140%;		
+	background-color: #3F51B5;
+	box-shadow:2px 2px 5px Gray;
+	color: White;    
+	width : 40%;
+	height: 1%;
+	margin: auto;
+	padding: 1%;		
+	transition: background-color 400ms;	
+	border: 0px solid inherit;
+	border-radius: 0px 20px 0px 20px;
+	
+}
+
+
+#login_btn:hover ,#login_btn_small:hover
+{  
+     
+	background-color: #5C6BC0;
+   	cursor: pointer;
+}
+
+.err
+{
+   box-shadow: 0px 0px 5px Red;
+   padding:1%;
+   font-size: 90%;   
+   background: #FFCDD2;
+   width: 67%;
+   margin: auto;
+   display: none;
+   margin-bottom: 10px;
+}
+
+/*Part 2*/
+#rmmbr_text
+{
+
+width: 48%;
+margin: 0 auto;
+padding: 2px;
+cursor: pointer;
+}
+
+
+#below_login
+{	
+	margin-top: 15px;
+	
+}
+
+#reg_btn,#register_btn
+{
+  background: #8BC34A;     
+  transition: background 400ms;
+  text-decoration:none;
+}
+#reg_btn:hover, #register_btn:hover
+{
+	background:#AED581;	
+}
+
+#iforgot
+{
+  border-bottom: 2px solid transparent;    
+  padding: 2px; 
+  transition: border 400ms;
+  float: right;
+  text-decoration:none;
+  color: #3B7AE9;
+
+}
+#iforgot:hover
+{
+	border-bottom:2px solid #3B7AE9;	
+}
